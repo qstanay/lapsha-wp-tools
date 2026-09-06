@@ -1,0 +1,200 @@
+.lapsha-wrap {
+	max-width: 1100px;
+}
+
+.lapsha-lead {
+	max-width: 46rem;
+	color: #50575e;
+	font-size: 14px;
+}
+
+.lapsha-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 16px;
+	margin-top: 20px;
+}
+
+.lapsha-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 16px 20px 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.lapsha-card h2 {
+	margin-top: 0;
+	font-size: 1.1em;
+}
+
+.lapsha-actions {
+	margin: 16px 0;
+}
+
+.lapsha-table .check-column {
+	width: 2.2em;
+	padding: 8px 0 8px 3px;
+}
+
+.lapsha-col-count {
+	width: 8rem;
+	white-space: nowrap;
+}
+
+.lapsha-count {
+	font-variant-numeric: tabular-nums;
+	font-weight: 600;
+}
+
+.lapsha-preview {
+	margin: 0;
+	padding-left: 1.1em;
+	color: #50575e;
+	font-size: 12px;
+}
+
+.lapsha-preview li {
+	margin: 0 0 2px;
+}
+
+.lapsha-result-list {
+	margin: 0.4em 0 0 1.2em;
+	list-style: disc;
+}
+
+.lapsha-button-danger {
+	background: #b32d2e;
+	border-color: #8a2424;
+}
+
+.lapsha-button-danger:hover,
+.lapsha-button-danger:focus {
+	background: #8a2424;
+	border-color: #6b1c1c;
+}
+
+.lapsha-progress-panel {
+	max-width: 720px;
+}
+
+.lapsha-status {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin: 0;
+}
+
+.lapsha-spinner {
+	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+	flex: 0 0 16px;
+	border: 2px solid #c3c4c7;
+	border-top-color: #2271b1;
+	border-radius: 50%;
+	animation: lapsha-spin 0.7s linear infinite;
+}
+
+.lapsha-progress-panel.is-complete .lapsha-spinner {
+	display: none;
+}
+
+.lapsha-overall {
+	margin: 16px 0 20px;
+	padding: 16px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+}
+
+.lapsha-overall__label {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.lapsha-progress {
+	height: 10px;
+	background: #dcdcde;
+	border-radius: 99px;
+	overflow: hidden;
+}
+
+.lapsha-progress--lg {
+	height: 14px;
+}
+
+.lapsha-progress__bar {
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	border-radius: 99px;
+	transition: width 0.35s ease;
+}
+
+.lapsha-progress__bar.is-done {
+	background: #00a32a;
+}
+
+.lapsha-progress__bar.is-active {
+	background-image: linear-gradient(90deg, #2271b1 0%, #72aee6 50%, #2271b1 100%);
+	background-size: 200% 100%;
+	animation: lapsha-slide 1.1s linear infinite;
+}
+
+.lapsha-progress-list {
+	display: grid;
+	gap: 12px;
+}
+
+.lapsha-progress-row {
+	padding: 12px 14px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+}
+
+.lapsha-progress-row.is-active {
+	border-color: #2271b1;
+}
+
+.lapsha-progress-row.is-done {
+	border-color: #00a32a;
+}
+
+.lapsha-progress-row__head {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.lapsha-progress-row__meta {
+	display: flex;
+	gap: 10px;
+	color: #50575e;
+	font-size: 13px;
+	font-variant-numeric: tabular-nums;
+}
+
+.lapsha-continue-form.is-automated {
+	display: none;
+}
+
+@keyframes lapsha-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes lapsha-slide {
+	from {
+		background-position: 100% 0;
+	}
+	to {
+		background-position: -100% 0;
+	}
+}

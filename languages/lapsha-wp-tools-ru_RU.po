@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lapsha WP Tools 0.1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/qstanay/lapsha-wp-tools/issues\n"
+"Last-Translator: qstanay\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-06T15:34:42+00:00\n"
+"PO-Revision-Date: 2026-09-06+00:00\n"
+"Language: ru_RU\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: lapsha-wp-tools\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<12 || n%100>14)) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: lapsha-wp-tools.php
+#: admin/class-lapsha-admin-menu.php:42
+#: admin/class-lapsha-admin-menu.php:43
+#: admin/views/dashboard.php:12
+msgid "Lapsha WP Tools"
+msgstr "Lapsha WP Tools"
+
+#. Plugin URI of the plugin
+#: lapsha-wp-tools.php
+msgid "https://github.com/qstanay/lapsha-wp-tools"
+msgstr ""
+
+#. Description of the plugin
+#: lapsha-wp-tools.php
+msgid "Free and open-source toolkit for WordPress — database, debugging, performance and administration tools."
+msgstr "Бесплатный набор инструментов для WordPress: база данных, отладка, производительность и администрирование."
+
+#. Author of the plugin
+#: lapsha-wp-tools.php
+msgid "qstanay"
+msgstr ""
+
+#. Author URI of the plugin
+#: lapsha-wp-tools.php
+msgid "https://github.com/qstanay"
+msgstr ""
+
+#: admin/class-lapsha-admin-menu.php:53
+#: admin/class-lapsha-admin-menu.php:54
+msgid "Dashboard"
+msgstr "Обзор"
+
+#: admin/class-lapsha-admin-progress.php:168
+#: admin/class-lapsha-admin-progress.php:170
+#: includes/class-lapsha-admin.php:81
+msgid "Working…"
+msgstr "Выполняется…"
+
+#: admin/class-lapsha-admin-progress.php:171
+#: includes/class-lapsha-admin.php:82
+msgid "Done"
+msgstr "Готово"
+
+#. translators: 1: completed count, 2: estimated total
+#: admin/class-lapsha-admin-progress.php:173
+#, php-format
+msgid "%1$s of %2$s"
+msgstr "%1$s из %2$s"
+
+#: admin/class-lapsha-admin-progress.php:174
+msgid "Continue"
+msgstr "Продолжить"
+
+#: admin/class-lapsha-admin-progress.php:175
+msgid "Needed only if JavaScript is off."
+msgstr "Нужна, только если JavaScript отключён."
+
+#: admin/views/dashboard.php:14
+msgid "Free administration tools for WordPress. Nothing is deleted unless you scan, select, and confirm."
+msgstr "Бесплатные инструменты администрирования для WordPress. Ничего не удаляется, пока вы не просканируете, не выберете и не подтвердите."
+
+#: admin/views/dashboard.php:24
+msgid "Open Database Cleaner"
+msgstr "Открыть очистку базы данных"
+
+#: includes/class-lapsha-security.php:46
+msgid "You do not have permission to do this."
+msgstr "У вас нет прав для этого действия."
+
+#: includes/class-lapsha-security.php:47
+#: includes/class-lapsha-security.php:69
+msgid "Forbidden"
+msgstr "Нет доступа"
+
+#: includes/class-lapsha-security.php:68
+msgid "Security check failed. Please try again."
+msgstr "Проверка безопасности не пройдена. Попробуйте ещё раз."
+
+#: modules/database/class-lapsha-database-scanner.php:33
+msgid "Post Revisions"
+msgstr "Редакции записей"
+
+#: modules/database/class-lapsha-database-scanner.php:34
+msgid "Previous versions of posts and pages. Current content is not removed."
+msgstr "Предыдущие версии записей и страниц. Текущее содержимое не удаляется."
+
+#: modules/database/class-lapsha-database-scanner.php:37
+msgid "Auto-Drafts"
+msgstr "Авточерновики"
+
+#: modules/database/class-lapsha-database-scanner.php:38
+msgid "Automatic drafts created by the editor. Normal drafts are left alone."
+msgstr "Автоматические черновики редактора. Обычные черновики не затрагиваются."
+
+#: modules/database/class-lapsha-database-scanner.php:41
+msgid "Trashed Posts"
+msgstr "Записи в корзине"
+
+#: modules/database/class-lapsha-database-scanner.php:42
+msgid "Posts, pages, and other types currently in the trash."
+msgstr "Записи, страницы и другие типы, которые сейчас в корзине."
+
+#: modules/database/class-lapsha-database-scanner.php:45
+msgid "Spam Comments"
+msgstr "Спам-комментарии"
+
+#: modules/database/class-lapsha-database-scanner.php:46
+msgid "Comments marked as spam. Approved comments are not included."
+msgstr "Комментарии, помеченные как спам. Одобренные комментарии не входят в выборку."
+
+#: modules/database/class-lapsha-database-scanner.php:49
+msgid "Trashed Comments"
+msgstr "Комментарии в корзине"
+
+#: modules/database/class-lapsha-database-scanner.php:50
+msgid "Comments currently in the trash."
+msgstr "Комментарии, которые сейчас в корзине."
+
+#: modules/database/class-lapsha-database-scanner.php:53
+msgid "Expired Transients"
+msgstr "Просроченные транзиенты"
+
+#: modules/database/class-lapsha-database-scanner.php:54
+msgid "Timed-out transients in the options table. Active transients are kept."
+msgstr "Истёкшие транзиенты в таблице options. Активные транзиенты сохраняются."
+
+#: modules/database/class-lapsha-database-scanner.php:272
+msgid "(no title)"
+msgstr "(без названия)"
+
+#: modules/database/class-lapsha-database-scanner.php:321
+msgid "(no author)"
+msgstr "(без автора)"
+
+#: modules/database/database.php:46
+msgid "Database"
+msgstr "База данных"
+
+#: modules/database/database.php:53
+msgid "Scan and remove leftover WordPress data such as revisions, trash, spam, and expired transients."
+msgstr "Сканирование и удаление остатков данных WordPress: редакции, корзина, спам и просроченные транзиенты."
+
+#: modules/database/database.php:74
+#: modules/database/views/cleaner.php:33
+msgid "Database Cleaner"
+msgstr "Очистка базы данных"
+
+#: modules/database/database.php:75
+msgctxt "admin menu title"
+msgid "DB Cleanup"
+msgstr "Очистка БД"
+
+#: modules/database/views/cleaner.php:37
+msgid "Select at least one category with items to clean."
+msgstr "Выберите хотя бы одну категорию с элементами для очистки."
+
+#: modules/database/views/cleaner.php:41
+msgid "The cleanup job expired or was not found. Scan again, then confirm cleanup."
+msgstr "Задача очистки истекла или не найдена. Выполните сканирование снова, затем подтвердите очистку."
+
+#: modules/database/views/cleaner.php:47
+msgid "Scan complete. Review the categories below, then confirm before anything is deleted."
+msgstr "Сканирование завершено. Проверьте категории ниже, затем подтвердите удаление."
+
+#. translators: %s: seconds, e.g. 0.18
+#: modules/database/views/cleaner.php:53
+#, php-format
+msgid "(completed in %s seconds)"
+msgstr "(выполнено за %s с)"
+
+#: modules/database/views/cleaner.php:65
+msgid "Scan first. Cleanup permanently deletes the selected leftover data and cannot be undone from this screen."
+msgstr "Сначала выполните сканирование. Очистка безвозвратно удаляет выбранные остатки данных; отменить это с этого экрана нельзя."
+
+#: modules/database/views/cleaner.php:77
+msgid "Cleanup completed."
+msgstr "Очистка завершена."
+
+#. translators: 1: number of items, 2: category name
+#: modules/database/views/cleaner.php:89
+#, php-format
+msgid "Deleted %1$d item from %2$s."
+msgid_plural "Deleted %1$d items from %2$s."
+msgstr[0] "Удалён %1$d элемент из категории «%2$s»."
+msgstr[1] "Удалено %1$d элемента из категории «%2$s»."
+msgstr[2] "Удалено %1$d элементов из категории «%2$s»."
+
+#: modules/database/views/cleaner.php:113
+#: modules/database/views/cleaner.php:115
+msgid "Deleting…"
+msgstr "Удаление…"
+
+#: modules/database/views/cleaner.php:114
+msgid "Counters update after each short step. The page stays open — it does not need a full reload."
+msgstr "Счётчики обновляются после каждого короткого шага. Страницу не нужно перезагружать."
+
+#. translators: 1: completed count, 2: estimated total
+#: modules/database/views/cleaner.php:117
+#, php-format
+msgid "%1$s of %2$s items removed"
+msgstr "Удалено %1$s из %2$s элементов"
+
+#: modules/database/views/cleaner.php:118
+msgid "Continue cleanup"
+msgstr "Продолжить очистку"
+
+#: modules/database/views/cleaner.php:124
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: modules/database/views/cleaner.php:125
+msgid "The selected items will be permanently deleted."
+msgstr "Выбранные элементы будут удалены безвозвратно."
+
+#: modules/database/views/cleaner.php:138
+msgid "Large amounts of data are removed in several short requests so the site does not time out."
+msgstr "Большие объёмы удаляются несколькими короткими запросами, чтобы сайт не превысил лимит времени."
+
+#: modules/database/views/cleaner.php:150
+msgid "Cancel"
+msgstr "Отмена"
+
+#: modules/database/views/cleaner.php:153
+msgid "Confirm cleanup"
+msgstr "Подтвердить очистку"
+
+#: modules/database/views/cleaner.php:163
+msgid "Scan database"
+msgstr "Сканировать базу данных"
+
+#: modules/database/views/cleaner.php:179
+msgid "Category"
+msgstr "Категория"
+
+#: modules/database/views/cleaner.php:180
+msgid "Items"
+msgstr "Элементы"
+
+#: modules/database/views/cleaner.php:181
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: modules/database/views/cleaner.php:212
+msgid "None"
+msgstr "Нет"
+
+#. translators: %s: number of remaining items
+#: modules/database/views/cleaner.php:236
+#, php-format
+msgid "…and %s more"
+msgstr "…и ещё %s"
+
+#: modules/database/views/cleaner.php:252
+msgid "Clean selected"
+msgstr "Очистить выбранное"
+
+#. translators: %s: plugin or theme names, e.g. Elementor, Divi
+#: modules/database/class-lapsha-database-compat.php:180
+#, php-format
+msgid "%s is active. Its templates and layouts (including those in trash) are not selected. Revisions, unsaved page auto-drafts, ordinary trash, spam, and expired transients can still be cleaned."
+msgid_plural "%s are active. Their templates and layouts (including those in trash) are not selected. Revisions, unsaved page auto-drafts, ordinary trash, spam, and expired transients can still be cleaned."
+msgstr[0] "%s активен. Его шаблоны и макеты (включая находящиеся в корзине) не выбираются. Редакции, несохранённые авточерновики страниц, обычную корзину, спам и просроченные транзиенты можно очищать."
+msgstr[1] "%s активны. Их шаблоны и макеты (включая находящиеся в корзине) не выбираются. Редакции, несохранённые авточерновики страниц, обычную корзину, спам и просроченные транзиенты можно очищать."
+msgstr[2] "%s активны. Их шаблоны и макеты (включая находящиеся в корзине) не выбираются. Редакции, несохранённые авточерновики страниц, обычную корзину, спам и просроченные транзиенты можно очищать."
+
+#: modules/database/class-lapsha-database-compat.php:203
+msgid "Includes builder history. The published layout is not removed."
+msgstr "Включая историю конструктора. Опубликованный макет не удаляется."
+
+#: modules/database/class-lapsha-database-compat.php:205
+msgid "Unsaved builder pages are included. Library and layout auto-drafts are not."
+msgstr "Несохранённые страницы конструктора входят в выборку. Авточерновики библиотеки и макетов — нет."
+
+#: modules/database/class-lapsha-database-compat.php:207
+msgid "Trashed posts and pages are included. Builder templates in trash are not."
+msgstr "Записи и страницы в корзине входят в выборку. Шаблоны конструктора в корзине — нет."
+
+#: modules/database/class-lapsha-database-compat.php:209
+msgid "Expired builder caches are included. Active transients are not."
+msgstr "Просроченные кеши конструктора входят в выборку. Активные транзиенты — нет."

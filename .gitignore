@@ -1,0 +1,29 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.idea/
+.vscode/
+*.swp
+node_modules/
+vendor/
+/dist/
+.phpunit.result.cache
+phpstan.neon.local
+docker-compose.override.yml
+
+# Local-only: QA scripts and Docker helpers (compose file is committed).
+/tests/
+/docker/
+
+# Working notes that are not the public architecture / cleaner docs.
+/docs/coding-standards.md
+/docs/contributing.md
+/docs/local-development.md
+/docs/overview.md
+/docs/principles.md
+/docs/releases.md
+/docs/roadmap.md
+/docs/security.md
+/docs/testing.md
